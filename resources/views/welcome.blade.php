@@ -20,9 +20,10 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
+
   <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="#page-top">Sawahan Lor</a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +32,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#partner">Home</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About us </a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#profile">Our gallery</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#profile">Service</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about us">About us </a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#gallery">Our gallery</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#service">Service</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact us">Contact Us
+            </a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+
+    <!-- Home-->
+    <header class="masthead  text-black text-center" id="home">
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
@@ -56,8 +60,9 @@
         <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
       </div>
     </header>
-    <!-- Partner Section-->
-    <section class="page-section portfolio" id="partner">
+
+    <!-- About Us Section-->
+    <section class="page-section portfolio" id="about us">
       <div class="container">
         <!-- Partner Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Partner</h2>
@@ -78,25 +83,94 @@
               <img class="img-fluid" src="assets/img/partner/cabin.png" alt="..." />
             </div>
           </div>
-          <!-- last partner 1-->
         </div>
       </div>
     </section>
 
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">CONTACT US</h2>
-
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-8 me-auto lead">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.02461248728076!2d110.43951854207349!3d-7.710768991175097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5b006b2818b3%3A0x4d2e053af56fa13e!2sBULAK%20SAWAH!5e1!3m2!1sid!2sid!4v1722841034211!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <!-- Our gallery Section-->
+     <section class="page-section portfolio" id="gallery">
+        <div class="container">
+          <!-- Partner Section Heading-->
+          <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Partner</h2>
+          <!-- Icon Divider-->
+          <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+          </div>
+          <!-- Partner Grid Items-->
+          <div class="row justify-content-center">
+            <!-- Partner Item 1-->
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                  <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/partner/cabin.png" alt="..." />
+              </div>
+            </div>
+            <!-- last partner 1-->
           </div>
         </div>
-      </div>
+      </section>
+
+   <!-- Service Section-->
+<section class="page-section portfolio" id="service">
+    <div class="container d-flex align-items-center flex-column">
+        <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">CONTACT US</h3>
+        <div class="row justify-content-center align-items-center mt-4">
+            <div class="col-md-4 col-sm-6 mt-4">
+                <div class="card h-100 text-center">
+                    <img src="assets/img/paket/downloada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Title</h5>
+                        <p class="card-text">Subtitle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-4">
+                <div class="card h-100 text-center">
+                    <img src="assets/img/paket/downloadb.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Title</h5>
+                        <p class="card-text">Subtitle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mt-4">
+                <div class="card h-100 text-center">
+                    <img src="assets/img/paket/downloadc.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Title</h5>
+                        <p class="card-text">Subtitle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- Contact Us Section-->
+    <section class="page-section text-black mb-0" id="contact-us">
+        <div class="container d-flex align-items-center flex-column">
+            <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">CONTACT US</h3>
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="col-12">
+                    <p class="text-justify">Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan, membutuhkan informasi lebih lanjut, atau ingin melakukan reservasi, silakan hubungi kami melalui salah satu cara berikut:</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center mt-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d376.02461248728076!2d110.43951854207349!3d-7.710768991175097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5b006b2818b3%3A0x4d2e053af56fa13e!2sBULAK%20SAWAH!5e1!3m2!1sid!2sid!4v1722841034211!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+
     <!-- Footer-->
     <footer class="footer text-center" id="profile">
       <div class="container">
