@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class servis extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'subtitle', 'img'];
 
     protected static function boot()
     {

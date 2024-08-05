@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('servvis', function (Blueprint $table) {
+        Schema::create('servis', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->longText('subtitle');
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('servvis');
+        Schema::dropIfExists('servis');
     }
 };
