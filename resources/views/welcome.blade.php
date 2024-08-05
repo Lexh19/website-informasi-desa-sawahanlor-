@@ -63,62 +63,85 @@
 
     <!-- About Us Section-->
     <section class="page-section portfolio" id="about us">
-      <div class="container">
-        <!-- Partner Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Partner</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Partner Grid Items-->
-        <div class="row justify-content-center">
-          <!-- Partner Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-              </div>
-              <img class="img-fluid" src="assets/img/partner/cabin.png" alt="..." />
+        <div class="container d-flex align-items-center flex-column">
+            <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">About us</h3>
+            <div class="row justify-content-center align-items-center mt-4">
+            <div class="col 6">
+                <h3> Menuju Desa Wisata Berkelanjutan untuk Kesejahteraan dan Kemandirian</h3>
             </div>
-          </div>
+            <div class="col-6">
+                <p>Pada awalnya, Dusun Sawahan Lor menghadapi berbagai tantangan ekonomi. Namun, sejak pengembangan desa wisata dimulai pada tahun 2008, dusun ini mengalami transformasi yang luar biasa. Kini, Sawahan Lor tidak hanya mandiri secara ekonomi, tetapi juga menjadi teladan bagi desa-desa lain dalam mengembangkan potensi alam dan budaya mereka.</p>
+            </div>
+
         </div>
-      </div>
+        <h1>Pencapaian Pembangunan Berkelanjutan</h1>
+        <div class="row justify-content-center align-items-center mt-4">
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+
+        </div>
     </section>
 
-     <!-- Our gallery Section-->
-     <section class="page-section portfolio" id="gallery">
-        <div class="container">
-          <!-- Partner Section Heading-->
-          <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Partner</h2>
-          <!-- Icon Divider-->
-          <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-          </div>
-          <!-- Partner Grid Items-->
-          <div class="row justify-content-center">
-            <!-- Partner Item 1-->
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                  <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+    <!-- Our gallery Section-->
+    <section class="page-section portfolio" id="gallery">
+        <div class="container d-flex align-items-center flex-column">
+            <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">Contact US</h3>
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="col-12">
+                    <p>Berikut beberapa galeri keindahan dan keunikan di Dusun Sawahan Lor melalui gambar dan video yang telah diabadikan. Setiap foto dan video dalam galeri ini menggambarkan kekayaan alam, budaya, dan kehidupan sehari-hari masyarakat Sawahan Lor.</p>
                 </div>
-                <img class="img-fluid" src="assets/img/partner/cabin.png" alt="..." />
-              </div>
+                <div class="col-md-4 col-sm-6 mt-4">
+                    <div class="card h-100 text-center">
+                        <img src="assets/img/paket/downloada.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-4">
+                    <div class="card h-100 text-center">
+                        <img src="assets/img/paket/downloadb.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-4">
+                    <div class="card h-100 text-center">
+                        <img src="assets/img/paket/downloadb.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- last partner 1-->
-          </div>
         </div>
-      </section>
+    </section>
 
-   <!-- Service Section-->
+<!-- Service Section-->
 <section class="page-section portfolio" id="service">
     <div class="container d-flex align-items-center flex-column">
         <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">CONTACT US</h3>
         <div class="row justify-content-center align-items-center mt-4">
+            <div class="col-12">
+                <p>Dusun Sawahan Lor menawarkan berbagai paket wisata yang dirancang untuk memberikan pengalaman tak terlupakan. Berikut adalah beberapa paket yang kami sediakan:</p>
+            </div>
             <div class="col-md-4 col-sm-6 mt-4">
                 <div class="card h-100 text-center">
                     <img src="assets/img/paket/downloada.jpeg" class="card-img-top" alt="...">
@@ -139,7 +162,7 @@
             </div>
             <div class="col-md-4 col-sm-6 mt-4">
                 <div class="card h-100 text-center">
-                    <img src="assets/img/paket/downloadc.jpeg" class="card-img-top" alt="...">
+                    <img src="assets/img/paket/downloadb.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Title</h5>
                         <p class="card-text">Subtitle</p>
@@ -171,75 +194,18 @@
 
 
 
-    <!-- Footer-->
-    <footer class="footer text-center" id="profile">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">
-              2215 John Daniel Drive
-              <br />
-              Clark, MO 65243
-            </p>
-          </div>
-          <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-youtube"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-          </div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">
-              Freelance is a free to use, MIT licensed Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>
-              .
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
     <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-      <div class="container"><small>Copyright &copy; 2024 Created and Development by KKN UNY</small></div>
-    </div>
-    <!-- Partner Modals-->
-    <!-- Partner Modal 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Partner Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Partner Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="assets/img/partner/cabin.png" alt="..." />
-                  <!-- Partner Modal - Text-->
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
+    <div class="copyright py-4 text-left text-white">
+        <div class="row justify-content-center align-items-center"></div>
+        <div class="container"><small>Copyright &copy; 2024 Created and Development by KKN UNY</small></div>
+        <div class="content-right">
+            <div class="col">
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-youtube"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <!-- Bootstrap core JS-->
