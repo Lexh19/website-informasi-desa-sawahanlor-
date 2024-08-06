@@ -21,7 +21,7 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
 
-  <body id="page-top">
+<body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top" id="mainNav">
       <div class="container">
@@ -74,25 +74,19 @@
             </div>
 
         </div>
-        <h1>Pencapaian Pembangunan Berkelanjutan</h1>
-        <div class="row justify-content-center align-items-center mt-4">
-            <div class="col-2">
-                <img src="" alt="">
+        <h1 class="mt-4 ">Pencapaian Pembangunan Berkelanjutan</h1>
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-3">
+                <img src="assets/img/sdgs/1.svg" alt="">
             </div>
-            <div class="col-2">
-                <img src="" alt="">
+            <div class="col-3">
+                <img src="assets/img/sdgs/2.svg" alt="">
             </div>
-            <div class="col-2">
-                <img src="" alt="">
+            <div class="col-3">
+                <img src="assets/img/sdgs/3.svg" alt="">
             </div>
-            <div class="col-2">
-                <img src="" alt="">
-            </div>
-            <div class="col-2">
-                <img src="" alt="">
-            </div>
-            <div class="col-2">
-                <img src="" alt="">
+            <div class="col-3">
+                <img src="assets/img/sdgs/4.svg" alt="">
             </div>
 
         </div>
@@ -101,7 +95,7 @@
     <!-- Our gallery Section-->
     <section class="page-section portfolio" id="gallery">
         <div class="container d-flex align-items-center flex-column">
-            <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">Contact US</h3>
+            <h3 class="page-section-heading text-center text-uppercase text-black contact-heading"> Our gallery</h3>
             <div class="row justify-content-center align-items-center mt-4">
                 <div class="col-12">
                     <p>Berikut beberapa galeri keindahan dan keunikan di Dusun Sawahan Lor melalui gambar dan video yang telah diabadikan. Setiap foto dan video dalam galeri ini menggambarkan kekayaan alam, budaya, dan kehidupan sehari-hari masyarakat Sawahan Lor.</p>
@@ -137,7 +131,7 @@
 <!-- Service Section-->
 <section class="page-section portfolio" id="service">
     <div class="container d-flex align-items-center flex-column">
-        <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">CONTACT US</h3>
+        <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">Service</h3>
         <div class="row justify-content-center align-items-center mt-4">
             <div class="col-12">
                 <p>Dusun Sawahan Lor menawarkan berbagai paket wisata yang dirancang untuk memberikan pengalaman tak terlupakan. Berikut adalah beberapa paket yang kami sediakan:</p>
@@ -174,11 +168,8 @@
 </section>
 
 
-
-
-
     <!-- Contact Us Section-->
-    <section class="page-section text-black mb-0" id="contact-us">
+    <section class="page-section text-black mb-0" id="contact us">
         <div class="container d-flex align-items-center flex-column">
             <h3 class="page-section-heading text-center text-uppercase text-black contact-heading">CONTACT US</h3>
             <div class="row justify-content-center align-items-center mt-4">
@@ -195,18 +186,22 @@
 
 
     <!-- Copyright Section-->
-    <div class="copyright py-4 text-left text-white">
-        <div class="row justify-content-center align-items-center"></div>
-        <div class="container"><small>Copyright &copy; 2024 Created and Development by KKN UNY</small></div>
-        <div class="content-right">
-            <div class="col">
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-youtube"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+    <<div class="copyright py-4 text-left text-white">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 text-left">
+                    <small>Copyright &copy; 2024 Created and Development by KKN UNY</small>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                </div>
             </div>
         </div>
     </div>
+
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
