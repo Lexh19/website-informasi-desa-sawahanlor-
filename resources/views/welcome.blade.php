@@ -1,5 +1,5 @@
-@@php
-    $home_name = get_home_value('img')
+@php
+    $home = get_homes_value('key');
 @endphp
 
 <!DOCTYPE html>
@@ -49,7 +49,7 @@
         <!-- Masthead Avatar Image-->
             <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">{{$key->title}}</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
