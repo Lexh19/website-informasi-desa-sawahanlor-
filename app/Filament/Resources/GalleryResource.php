@@ -17,7 +17,7 @@ class GalleryResource extends Resource
 {
     protected static ?string $model = Gallery::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-document-duplicate';
+    protected static ?string $navigationIcon = 'heroicon-o-photo';
 
     public static function form(Form $form): Form
     {
